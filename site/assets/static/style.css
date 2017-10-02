@@ -1,0 +1,93 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  margin: 1.82rem 1.1rem;
+}
+
+a {
+  color: #2a99b6;
+}
+
+a:hover {
+  color: #33bbdf;
+}
+
+header,
+footer,
+div.index,
+div.page {
+  width: 680px;
+  margin: 0 auto;
+  padding: 1.17rem 2.36rem 1.47rem 2.36rem;
+}
+
+header .title {
+  color: #169bbd;
+  margin: 0;
+  font-weight: normal;
+  font-size: 2.64em;
+}
+
+header .title a {
+  text-decoration: none;
+}
+
+header nav ul {
+  margin: 1.81rem 0 0.23rem 0;
+  padding: 0;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0.78rem 0 0;
+  padding: 0;
+}
+
+header nav ul li.right {
+  display: inline-block;
+  float: right;
+}
+
+header nav ul li.active a {
+  text-decoration: none;
+  color: #898989;
+}
+
+.log-entry {
+  margin: 1.72rem 0 2.33rem 0;
+  padding: 0 0 1.72rem 0;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.index > .log-entry:nth-last-child(2),
+.page > .log-entry:last-child {
+  border: none;
+}
+
+span.label {
+  display: inline-block;
+  padding: 0.26rem 0.78rem;
+  margin: 0;
+  border-radius: 1.115rem;
+  font-size: 0.98em;
+  font-family: monospace;
+}
+
+span.label.none {
+  background-color: #d3d3d3;
+}
+
+span.label.documentation {
+  background-color: #b0e0e6;
+}
+
+.index h2,
+.page h2 {
+  font-weight: bold;
+  font-size: 1.66em;
+}
+
+.index p,
+.page p {
+  line-height: 1.16em;
+}

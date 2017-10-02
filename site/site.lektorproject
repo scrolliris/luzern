@@ -1,0 +1,14 @@
+[project]
+name = Scrolliris Changelog
+url = https://log.scrolliris.com/
+locale = en_US
+
+[alternatives.en]
+name = English
+locale = en_US
+primary = true
+
+[alternatives.de]
+name = Deutsch
+locale = de
+url_prefix = /de/

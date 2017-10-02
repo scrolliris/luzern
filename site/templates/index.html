@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% from "macros/log.html" import render_log_entry %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block title %}Changelogs{% endblock %}
+{% block class %}index{% endblock %}
+{% block body %}
+  {% for child in site.get('/logs', alt=this.alt).pagination.items %}
+    {{ render_log_entry(child, alt=this.alt, from_index=true) }}
+  {% endfor %}
+
+  {{ render_pagination(this.pagination) }}
+{% endblock %}

@@ -1,0 +1,25 @@
+{% macro render_log_entry(entry, alt='en', from_index=false) %}
+  <div class="log-entry">
+  {% if from_index %}
+    <h2><a href="{{ entry|url }}">{{ entry.title }}</a></h2>
+  {% else %}
+    <h2>{{ entry.title }}</h2>
+  {% endif %}
+  <p class="meta">
+    {{ entry.author }},
+    {% if alt == 'de' %}
+    {{ entry.pub_date|dateformat('dd-MM-YYYY') }}
+    {% else %}
+    {{ entry.pub_date }}
+    {% endif %}
+  </p>
+  {% if entry.category %}
+  <span class="label {{ entry.label|lower }}">{{ entry.category|title }}</span>
+  {% endif %}
+  {% if from_index %}
+  {{ entry.outline }}
+  {% else %}
+  {{ entry.body }}
+  {% endif %}
+  </div>
+{% endmacro %}

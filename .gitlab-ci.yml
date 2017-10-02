@@ -1,0 +1,35 @@
+# https;//docs.gitlab.com/ce/ci/yaml/
+stages:
+  - pages
+
+variables:
+  APT_CACHE_DIR: apt-cache
+  PIP_CACHE_DIR: pip-cache
+
+cache:
+  untracked: true
+  paths:
+    - apt-cache
+    - pip-cache
+
+# -- stages
+
+pages:
+  stage: pages
+  image: python:3.5.4
+  before_script:
+    - mkdir -pv $APT_CACHE_DIR && apt-get -qq update
+    - apt-get -qq -o dir::cache::archives="$APT_CACHE_DIR" install -y
+      asciidoc
+    - python --version
+    - pip --version
+    - pip install Lektor -c constraints.txt
+  script:
+    - cd site
+    - lektor build --output-path ../public
+  artifacts:
+    untracked: true
+    paths:
+      - public
+  only:
+    - master

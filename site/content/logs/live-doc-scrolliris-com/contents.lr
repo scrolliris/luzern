@@ -1,0 +1,21 @@
+title: Documentation website is live!
+---
+pub_date: 2017-10-03
+---
+author: Yasuhiro Asaka
+---
+label: documentation
+---
+category: Documentation
+---
+outline:
+
+In this week, we've made a documentation website for +Scrolliris+. https://doc.scrolliris.com/ is now live! It includes, _Getting Started_ ...
+---
+body:
+
+In this week, we've made a documentation website for +Scrolliris+. https://doc.scrolliris.com/ is now live! It includes, _Getting Started_, _How It Works_ and legal documents like _Terms of Service_, _Privacy Policy_ and _Cookie_.
+
+Its original source is also distributed as https://gitlab.com/lupine-software/geneve[Lupine Software/Geneve] (codename: geneve) on GitLab.com. If you find something wrong or an explanation difficult to understand, please send us merge request or feedback!
+
+We'll update gradually this documents ;)
