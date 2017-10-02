@@ -7,12 +7,12 @@ https://gitlab.com/lupine-software/luzern/commits/master)
 
 ```txt
    _
-\_|_)
-  |            __   _   ,_    _  _
- _|    |   |  / / _|/  /  |  / |/ |
-(/\___/ \_/|_/ /_/ |__/   |_/  |  |_/
-                /|
-                \|
+\_|_)             + +
+  |     __   __   __,   ,_    _  _
+ _|    /  \_/ / _/  |  /  |  / |/ |
+(/\___/\__/  /_/ \_/|_/   |_/  |  |_/
+              /|
+              \|
 
 Luzärn; scrolLiris's Upstream Zig zAg cuRved chaNgelog
 ```
