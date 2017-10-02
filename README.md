@@ -67,8 +67,8 @@ Copyright (c) 2017 Lupine Software LLC
 
 This is free software:  
 You can redistribute it and/or modify it under the terms of
-the [BSD 3-Clause License](
-https://opensource.org/licenses/BSD-3-Clause))
+the [BSD 3-Clause](
+https://opensource.org/licenses/BSD-3-Clause) License.
 
 ### Articles and Images (Content)
 
