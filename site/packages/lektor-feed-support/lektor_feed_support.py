@@ -26,6 +26,7 @@ def get_value(item, field, default=None):
         return str(item[field])
     return default
 
+
 def get_items(ctx, feed_source):
     if feed_source.items:
         expr = Expression(ctx.env, feed_source.items)
@@ -38,6 +39,7 @@ def get_items(ctx, feed_source):
 
     order_by = '-' + feed_source.item_date_field
     return items.order_by(order_by).limit(int(feed_source.limit))
+
 
 def make_feed(feed_source, project_id):
     post = feed_source.parent

@@ -26,7 +26,8 @@ pages:
     - pip install Lektor -c constraints.txt
   script:
     - cd site
-    - lektor build --output-path ../public
+    - lektor clean --yes
+    - lektor build --output-path ../public --no-prune
   artifacts:
     untracked: true
     paths:
