@@ -1,0 +1,24 @@
+title: Changelog Feed
+---
+pub_date: 2017-10-05
+---
+author: Yasuhiro Asaka
+---
+label: none
+---
+category: None
+---
+outline:
+
+This changelog site has now feed. ...
+---
+body:
+
+This changelog site has now feed. It's available in English and German.
+Check out the links, below.
+
+English::
+https://log.scrolliris.com/feed.xml
+
+German::
+https://log.scrolliris.com/de/feed.xml
