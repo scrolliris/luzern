@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% from "macros/log.html" import render_log_entry %}
 {% from "macros/pagination.html" import render_pagination %}
-{% block title %}Changelogs{% endblock %}
+{% block title %}Index{% endblock %}
 {% block class %}index{% endblock %}
 {% block body %}
   {% for child in site.get('/logs', alt=this.alt).pagination.items %}
