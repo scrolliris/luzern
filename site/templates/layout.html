@@ -1,17 +1,22 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+{% for alt in get_alts(this) %}
+<link rel="alternate" type="application/atom+xml" title="Scrolliris Changelog ({{ alt }})" href="{{ ('@feed/log-'+alt)|url }}">
+{% endfor %}
 <title>{% block title %}{% endblock %} | Scrolliris Changelog</title>
 <style>body{background:#ffffff;}</style>
 <body>
   <header>
-    <h1 class="title"><a href="/">Scrolliris Changelog</a></h1>
+    <h1 class="title"><a href="/">Scrolliris Changelog</a>
+      <span class="feed"><a href="{{ ('@feed/log-'+this.alt)|url(alt=this.alt) }}">Feed</a></span>
+    </h1>
     <nav>
       <ul class="nav navbar-nav">
         {# language #}
         {% for alt in get_alts(this) %}
           {% if this.alt != alt %}
-          <li><a href="{{'./'|url(alt=alt) }}">{{ this.pad.config.get_alternative(alt).name['en']|title }}</a></li>
+          <li><a href="{{ './'|url(alt=alt) }}">{{ this.pad.config.get_alternative(alt).name['en']|title }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

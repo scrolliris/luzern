@@ -53,6 +53,29 @@ header nav ul li.active a {
   color: #898989;
 }
 
+header .feed {
+  display: inline-block;
+}
+
+header .feed a {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.08rem 0 0.08rem 1.93rem;
+  padding: 0.1rem 0.71rem;
+  font-size: 0.38em;
+  font-weight: normal;
+  border: 1px solid #ff7f50;
+  text-decoration: none;
+  background: #ffffff;
+  color: #ff7f50;
+  border-radius: 0.13rem;
+}
+
+header .feed a:hover {
+  background: #ff7f50;
+  color: #ffffff;
+}
+
 .log-entry {
   margin: 1.72rem 0 2.33rem 0;
   padding: 0 0 1.72rem 0;
