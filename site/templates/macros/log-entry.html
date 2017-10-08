@@ -20,12 +20,14 @@
 
   <div class="body">
     {# cover attachements #}
-    {% for img in entry.attachments.images.filter(F.cover == true) %}
+    {% if from_index or entry.has_cover %}
+    {% for img in entry.attachments.images.filter(F.is_cover) %}
     <figure class="img">
       <img src="{{ img.thumbnail(300)|url }}" alt="{{ img.alt }}">
       <figcaption class="caption">{{ img.license }}, &copy; {{ img.copyright }}</figcaption>
     </figure>
     {% endfor %}
+    {% endif %}
 
     {% if from_index %}
     {{ entry.outline }}

@@ -11,6 +11,15 @@ a:hover {
   color: #33bbdf;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption {
+  color: #888888;
+  font-size: 0.88em;
+}
+
 header,
 footer,
 div.index,
@@ -98,7 +107,7 @@ span.label {
 
 span.label.none { background-color: #d3d3d3; }
 span.label.documentation { background-color: #b0e0e6; }
-span.label.demo { background-color: #ffebcd; }
+span.label.concept { background-color: #ffebcd; }
 
 .index h2,
 .page h2 {

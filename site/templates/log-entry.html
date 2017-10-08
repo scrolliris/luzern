@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{% from "macros/log.html" import render_log_entry %}
+{% from "macros/log-entry.html" import render_log_entry %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
   {{ render_log_entry(this) }}
