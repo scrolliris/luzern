@@ -2,8 +2,8 @@
 
 `/ˌluːˈsɜːrn/`
 
-[![build status](https://gitlab.com/lupine-software/luzern/badges/master/build.svg)](
-https://gitlab.com/lupine-software/luzern/commits/master)
+[![pipeline status][ci-build]][commit] [![coverage report][ci-cov]][commit]
+
 
 ```txt
    _
@@ -61,25 +61,55 @@ https://gitlab.com/lupine-software/luzern)
 
 ## License
 
+This project is distributed as various licenses by parts.
+
+```txt
+Lozärn
 Copyright (c) 2017 Lupine Software LLC
+```
 
 ### Software (Program)
 
-This is free software:  
-You can redistribute it and/or modify it under the terms of
-the [BSD 3-Clause](
-https://opensource.org/licenses/BSD-3-Clause) License.
+`BSD-3-Clause`
 
-### Articles and Images (Content)
+The programs in this project are distributed as
+BSD 3-Clause License.
 
-The is distributed as **GNU Free Documentation
-License**. (version 1.3)
+```
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+```
 
+Check the [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause) License.
+
+### Documentation and Resource (image)
+
+`GFDL-1.3`
+
+The translation files (`*.po` and `*.pot`) are distributed as
+GNU Free Documentation License. (version 1.3)
+
+```txt
 Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3
 or any later version published by the Free Software Foundation;
 with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
 A copy of the license is included in the section entitled "GNU
 Free Documentation License".
+```
 
-See [LICENSE](LICENSE). (`GFDL-1.3`)
+See [LICENSE](LICENSE).
+
+
+[ci-build]: https://gitlab.com/lupine-software/luzern/badges/master/build.svg
+[ci-cov]: https://gitlab.com/lupine-software/luzern/badges/master/coverage.svg
+[commit]: https://gitlab.com/lupine-software/luzern/commits/master
