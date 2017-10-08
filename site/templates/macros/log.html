@@ -15,12 +15,7 @@
   </p>
 
   {% if entry.category %}
-  <span class="label {{ entry.label|lower }}">{{ entry.category|title }}</span>
-  {% endif %}
-  {% if from_index %}
-  {{ entry.outline }}
-  {% else %}
-  {{ entry.body }}
+  <span class="label {{ entry.category|lower }}">{{ entry.category_label|title }}</span>
   {% endif %}
 
   <div class="body">
