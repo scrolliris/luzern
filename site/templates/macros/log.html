@@ -1,9 +1,9 @@
 {% macro render_log_entry(entry, alt='en', from_index=false) %}
-  <div class="log-entry">
+<div class="log-entry">
   {% if from_index %}
-    <h2><a href="{{ entry|url }}">{{ entry.title }}</a></h2>
+  <h2><a href="{{ entry|url }}">{{ entry.title }}</a></h2>
   {% else %}
-    <h2>{{ entry.title }}</h2>
+  <h2>{{ entry.title }}</h2>
   {% endif %}
   <p class="meta">
     {{ entry.author }},
@@ -13,6 +13,7 @@
     {{ entry.pub_date }}
     {% endif %}
   </p>
+
   {% if entry.category %}
   <span class="label {{ entry.label|lower }}">{{ entry.category|title }}</span>
   {% endif %}
@@ -21,5 +22,21 @@
   {% else %}
   {{ entry.body }}
   {% endif %}
+
+  <div class="body">
+    {# cover attachements #}
+    {% for img in entry.attachments.images.filter(F.cover == true) %}
+    <figure class="img">
+      <img src="{{ img.thumbnail(300)|url }}" alt="{{ img.alt }}">
+      <figcaption class="caption">{{ img.license }}, &copy; {{ img.copyright }}</figcaption>
+    </figure>
+    {% endfor %}
+
+    {% if from_index %}
+    {{ entry.outline }}
+    {% else %}
+    {{ entry.body }}
+    {% endif %}
   </div>
+</div>
 {% endmacro %}
