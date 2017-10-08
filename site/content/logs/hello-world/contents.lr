@@ -4,9 +4,11 @@ pub_date: 2017-10-02
 ---
 author: Yasuhiro Asaka
 ---
-label: none
+has_cover: false
 ---
-category: None
+category: none
+---
+category_label: None
 ---
 outline:
 
