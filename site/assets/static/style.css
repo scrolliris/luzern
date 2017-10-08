@@ -15,9 +15,13 @@ figure {
   margin: 0;
 }
 
+span.caption,
 figcaption {
+  display: block;
   color: #888888;
-  font-size: 0.88em;
+  font-size: 0.81em;
+  padding: 0;
+  margin: 0.06rem 0 0.2rem 0;
 }
 
 header,
