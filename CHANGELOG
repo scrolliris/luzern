@@ -1,3 +1,7 @@
+09 Oct 2017 Yasuhiro Asaka <yasuhiro.asaka@grauwoelfchen.net>
+	* Remove index model (use log.ini)
+	* Add image (figure) support
+
 05 Oct 2017 Yasuhiro Asaka <yasuhiro.asaka@grauwoelfchen.net>
 	* Add feeds (en, de) support
 
