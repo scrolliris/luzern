@@ -4,9 +4,11 @@ pub_date: 2017-10-05
 ---
 author: Yasuhiro Asaka
 ---
-label: none
+has_cover: false
 ---
-category: Keiner
+category: none
+---
+category_label: Keiner
 ---
 outline:
 
