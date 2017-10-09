@@ -63,16 +63,11 @@ https://gitlab.com/lupine-software/luzern)
 
 This project is distributed as various licenses by parts.
 
-```txt
-Lozärn
-Copyright (c) 2017 Lupine Software LLC
-```
-
 ### Software (Program)
 
 `BSD-3-Clause`
 
-The programs in this project are distributed as
+The programs in this project are distributed as the
 BSD 3-Clause License.
 
 ```
@@ -89,13 +84,13 @@ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-Check the [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause) License.
+Check the [BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause).
 
 ### Documentation and Resource (image)
 
 `GFDL-1.3`
 
-The translation files (`*.po` and `*.pot`) are distributed as
+The translation files (`*.po` and `*.pot`) are distributed as the
 GNU Free Documentation License. (version 1.3)
 
 ```txt
@@ -108,6 +103,12 @@ Free Documentation License".
 ```
 
 See [LICENSE](LICENSE).
+
+
+```txt
+Lozärn
+Copyright (c) 2017 Lupine Software LLC
+```
 
 
 [ci-build]: https://gitlab.com/lupine-software/luzern/badges/master/build.svg
