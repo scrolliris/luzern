@@ -1,3 +1,10 @@
+12 Oct 2017 Yasuhiro Asaka <yasuhiro.asaka@grauwoelfchen.net>
+	* Add robots.txt and humans.txt
+	* Add meta tags (viewport and keywords etc.)
+	* Add favicons
+	* Move css into css directory
+	* [post] toglling-widget-and-icon
+
 09 Oct 2017 Yasuhiro Asaka <yasuhiro.asaka@grauwoelfchen.net>
 	* Remove index model (use log.ini)
 	* Add image (figure) support
