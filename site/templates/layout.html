@@ -2,11 +2,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=0.4">
-  <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+  <title>{% block title %}Scrolliris Changelog{% endblock %}</title>
   {% for alt in get_alts(this) %}
   <link rel="alternate" type="application/atom+xml" title="Scrolliris Changelog ({{ alt }})" href="{{ ('@feed/log-'+alt)|url }}">
   {% endfor %}
-  <title>{% block title %}{% endblock %} | Scrolliris Changelog</title>
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico'|url }}">
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64 96x96 128x128 192x192" href="{{ '/favicon.ico'|url }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ 'img/favicon-192.png'|url }}">
+  <link rel="icon" type="image/png" sizes="128x128" href="{{ 'img/favicon-128.png'|url }}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ 'img/favicon-96.png'|url }}">
+  <link rel="icon" type="image/png" sizes="64x64" href="{{ 'img/favicon-64.png'|url }}">
+  <link rel="icon" type="image/png" sizes="48x48" href="{{ 'img/favicon-48.png'|url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'img/favicon-32.png'|url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'img/favicon-16.png'|url }}">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="{{ 'img/touch-icon-180.png'|url }}">
+  <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="{{ 'img/touch-icon-167.png'|url }}">
+  <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="{{ 'img/touch-icon-152.png'|url }}">
+  <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="{{ 'img/touch-icon-120.png'|url }}">
+  <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="{{ 'img/touch-icon-76.png'|url }}">
+  <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="{{ 'img/touch-icon-57.png'|url }}">
+  <link rel="stylesheet" href="{{ '/css/style.css'|url }}">
   <style>body{background:#ffffff;}</style>
 </head>
 <body>
