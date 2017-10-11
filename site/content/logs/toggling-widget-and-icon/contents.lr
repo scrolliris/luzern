@@ -1,0 +1,26 @@
+title: Toggling Widget and Icon
+---
+pub_date: 2017-10-11
+---
+author: Yasuhiro Asaka
+---
+has_cover: false
+---
+category: widget
+---
+category_label: Widget
+---
+outline:
+
+New version of mini heatmap widget has been released ...
+---
+body:
+
+New version of mini heatmap widget has been released.
+Now user can open or close it. Watch a small screencast below:
+
+++++
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/85rY19WLhoU?rel=0" frameborder="0" allowfullscreen></iframe>
+++++
+
+Happy Scrolling!
