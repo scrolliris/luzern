@@ -6,12 +6,14 @@
   <h2>{{ entry.title }}</h2>
   {% endif %}
   <p class="meta">
-    {{ entry.author }},
-    {% if alt == 'de' %}
-    {{ entry.pub_date|dateformat('dd-MM-YYYY') }}
-    {% else %}
-    {{ entry.pub_date }}
-    {% endif %}
+    <span class="published-at">
+      {% if alt == 'de' %}
+      {{ entry.pub_date|dateformat('dd-MM-YYYY') }}
+      {% else %}
+      {{ entry.pub_date }}
+      {% endif %}
+    </span>
+    {{ entry.author }}
   </p>
 
   {% if entry.category %}
