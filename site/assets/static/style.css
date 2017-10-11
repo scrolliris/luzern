@@ -24,13 +24,17 @@ figcaption {
   margin: 0.06rem 0 0.2rem 0;
 }
 
+.container {
+  width: 780px;
+  margin: 0 auto;
+}
+
 header,
 footer,
 div.index,
 div.page {
-  width: 680px;
   margin: 0 auto;
-  padding: 1.17rem 2.36rem 1.47rem 2.36rem;
+  padding: 1.17rem 0.75rem 1.47rem 0.75rem;
 }
 
 header .title {
