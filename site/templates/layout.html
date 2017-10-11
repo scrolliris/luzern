@@ -26,10 +26,8 @@
         </ul>
       </nav>
     </header>
-    <section class="content">
-      <div class="{% block class %}page{% endblock %}">
-        {% block body %}{% endblock %}
-      </div>
+    <section class="content {% block section %}page{% endblock %}">
+      {% block body %}{% endblock %}
     </section>
     <footer>
       <span class="license"><a href="https://gitlab.com/lupine-software/luzern/blob/master/LICENSE">GFDL-1.3</a></span>

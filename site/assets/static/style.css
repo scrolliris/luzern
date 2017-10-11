@@ -34,8 +34,8 @@ figcaption {
 
 header,
 footer,
-div.index,
-div.page {
+.index,
+.page {
   margin: 0 auto;
   padding: 1.17rem 0.75rem 1.47rem 0.75rem;
 }
