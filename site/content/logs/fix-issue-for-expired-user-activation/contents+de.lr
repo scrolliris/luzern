@@ -1,0 +1,28 @@
+title: Bug Korrektur für Signup Email mit ungültigen Token
+---
+pub_date: 2017-10-17
+---
+author: Yasuhiro Asaka
+---
+has_cover: false
+---
+category: bugfix
+---
+category_label: Bug Korrektur
+---
+outline:
+
+Wir haben einen Bug von Email Duplikation Check für ungültiger Signup...
+---
+body:
+
+Wir haben einen Bug von Email Duplikation Check für ungültiger Signup Token
+
+Diese Bug vorher, nachdem Signup, Wenn der Token in Email ungültig war,
+Benutzer konnte nicht Signup wieder mit dieses Email address machen.
+
+Wir haben das korrigiert. Und haben wir auch einige Translations aktualisiert.
+
+Wenn du etwas Problem hast, bitte schickst du uns Email.
+
+`support@srcolliris.com`

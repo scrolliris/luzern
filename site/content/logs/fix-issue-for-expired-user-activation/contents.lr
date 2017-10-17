@@ -1,0 +1,29 @@
+title: Fix issue for expired user activation
+---
+pub_date: 2017-10-17
+---
+author: Yasuhiro Asaka
+---
+has_cover: false
+---
+category: bugfix
+---
+category_label: Bug fix
+---
+outline:
+
+We fixed a bug of email duplication checking for expired user ...
+---
+body:
+
+We fixed a bug of email duplication checking for expired user activation
+(signup)
+
+Before this bug fix, after signup, if the token in verification email has
+been expired, user could not signup using same email address again by this bug.
+
+We fixed that. And also some missing translations are added.
+
+If you have any trouble, please send us email.
+
+`support@srcolliris.com`
