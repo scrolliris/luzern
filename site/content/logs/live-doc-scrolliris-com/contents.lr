@@ -18,6 +18,6 @@ body:
 
 In this week, we've made a documentation website for +Scrolliris+. https://doc.scrolliris.com/ is now live! It includes, _Getting Started_, _How It Works_ and legal documents like _Terms of Service_, _Privacy Policy_ and _Cookie_.
 
-Its original source is also distributed as https://gitlab.com/lupine-software/geneve[Lupine Software/Geneve] (codename: geneve) on GitLab.com. If you find something wrong or an explanation difficult to understand, please send us merge request or feedback!
+Its original source is also distributed as https://gitlab.com/scrolliris/geneve[Scrolliris/Geneve] (codename: geneve) on GitLab.com. If you find something wrong or an explanation difficult to understand, please send us merge request or feedback!
 
 We'll update gradually this documents ;)

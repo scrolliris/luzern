@@ -14,7 +14,7 @@
               /|
               \|
 
-Luzärn; scrolLiris's Upstream Zig zAg cuRved chaNgelog
+Luzärn; scrolLiris's Upstream amaZing ÄRchive & chaNgelog
 ```
 
 This is changelog website for the [Scrolliris](
@@ -23,8 +23,8 @@ https://about.scrolliris.com/).
 
 ## Repository
 
-[https://gitlab.com/lupine-software/luzern](
-https://gitlab.com/lupine-software/luzern)
+[https://gitlab.com/scrolliris/luzern](
+https://gitlab.com/scrolliris/luzern)
 
 
 ## Requirements
@@ -111,6 +111,6 @@ Copyright (c) 2017 Lupine Software LLC
 ```
 
 
-[ci-build]: https://gitlab.com/lupine-software/luzern/badges/master/build.svg
-[ci-cov]: https://gitlab.com/lupine-software/luzern/badges/master/coverage.svg
-[commit]: https://gitlab.com/lupine-software/luzern/commits/master
+[ci-build]: https://gitlab.com/scrolliris/luzern/badges/master/build.svg
+[ci-cov]: https://gitlab.com/scrolliris/luzern/badges/master/coverage.svg
+[commit]: https://gitlab.com/scrolliris/luzern/commits/master
