@@ -1,8 +1,12 @@
-# Lozärn
+# Scrolliris Changelog
 
-`/ˌluːˈsɜːrn/`
+Code Name: `Lozärn /ˌluːˈsɜːrn/`
 
 [![pipeline status][ci-build]][commit] [![coverage report][ci-cov]][commit]
+
+[ci-build]: https://gitlab.com/scrolliris/scrolliris-changelog/badges/master/build.svg
+[ci-cov]: https://gitlab.com/scrolliris/scrolliris-changelog/badges/master/coverage.svg
+[commit]: https://gitlab.com/scrolliris/scrolliris-changelog/commits/master
 
 
 ```txt
@@ -23,8 +27,7 @@ https://about.scrolliris.com/).
 
 ## Repository
 
-[https://gitlab.com/scrolliris/luzern](
-https://gitlab.com/scrolliris/luzern)
+https://gitlab.com/scrolliris/scrolliris-changelog
 
 
 ## Requirements
@@ -106,11 +109,6 @@ See [LICENSE](LICENSE).
 
 
 ```txt
-Lozärn
+Scrolliris Changelog
 Copyright (c) 2017 Lupine Software LLC
 ```
-
-
-[ci-build]: https://gitlab.com/scrolliris/luzern/badges/master/build.svg
-[ci-cov]: https://gitlab.com/scrolliris/luzern/badges/master/coverage.svg
-[commit]: https://gitlab.com/scrolliris/luzern/commits/master
